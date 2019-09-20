@@ -2,7 +2,7 @@ Este proyecto tiene la finalidad de ir mostrando la calidad de mi trabajo en cua
 
 ## Detalles:
 ```
-HTML5 - Css3 - Vanilla.js - Grid css - Flexbox
+HTML5 - Css3 - Vanilla.js - Grid css - Flexbox - Mobile First
 ```
 ```
 Guía: Laning Page de Airbnb https://www.airbnb.com.co/
