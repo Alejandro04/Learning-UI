@@ -21,10 +21,11 @@ body {
 label {
     color: #484848;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 800;
     letter-spacing: 1px;
     margin-bottom: 8px;
+    line-height: 1.33333em;
 }
 .input {
     padding: 0;
@@ -39,6 +40,23 @@ label {
     padding: 20px;
     /*SIEMPRE DEBE EXISTIR UN CONTAINER*/
 }
+.btn_search_reservation_responsive{
+    background-color: rgba(255, 90, 95, 1);
+    color: white;
+    padding: 14px;
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 18px;
+    border-style: solid;
+    font-weight: bolder;
+}
+.btn_search_reservation_responsive:hover{
+    cursor: pointer;
+    background-color:rgba(255, 92, 97, 0.90);
+}
+
+
 @media screen and (max-width: 480px) {
     .title_responsive {
         color: white;
