@@ -84,7 +84,7 @@ label {
 }
 
 .vcal-week > span{
-    font-size: 10px !important;
+    font-size: 10px;
 }
 /************END CALENDAR**********/
 
@@ -107,15 +107,12 @@ label {
     bottom: 0;
     margin-left: 20px;
 }
-.title_desktop {
-    color: white;
-    box-shadow: 2px;
-    position: absolute;
-    bottom: 0;
-    margin-left: 20px;
+.container_form_reservation_desktop{
     display: none;
 }
-
+.title_desktop > h1{
+    font-size: 26px;
+}
 
 @media screen and (max-width: 480px) {
     .input {
@@ -142,9 +139,21 @@ label {
     .form_reservation_responsive {
         display: none;
     }
-    .title_desktop{
-        display: block;
+    .container_form_reservation_desktop{
+        display: grid;
+        grid-template-columns:  70px 1fr;
+        grid-template-rows: 550px;
     }
+    .form_reservation_desktop{
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+        padding: 32px 32px 24px;
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 40px;
+        color: #484848;
+        margin-top: 100px;
+    }
+    
 }
 
 @media screen and (min-width: 950px) {}
