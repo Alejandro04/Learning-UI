@@ -62,6 +62,23 @@ label {
     cursor: pointer;
     background-color:rgba(255, 92, 97, 0.90);
 }
+.btn_search_reservation_desktop{
+    background-color: rgba(255, 90, 95, 1);
+    color: white;
+    padding: 14px;
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem;
+    border-style: solid;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn_search_reservation_desktop:hover{
+    cursor: pointer;
+    background-color:rgba(255, 92, 97, 0.90);
+}
 .subtitle_responsive{
     text-align: center;
     color: rgb(72, 72, 72);
@@ -146,16 +163,16 @@ label {
     .container_form_reservation_desktop{
         display: grid;
         grid-template-columns:  70px 1fr;
-        grid-template-rows: 550px;
+        grid-template-rows: 560px;
     }
     .form_reservation_desktop{
         background-color: rgb(255, 255, 255);
         border-radius: 4px;
         padding: 32px 32px 24px;
-        width: 400px;
+        width: 380px;
         box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 40px;
         color: #484848;
-        margin-top: 100px;
+        margin-top: 80px;
     }
     
 }
