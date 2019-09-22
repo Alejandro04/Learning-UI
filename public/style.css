@@ -1,4 +1,4 @@
-html { font-size: 20px; }
+html{ font-size: 20px; }
 
 body {
     margin: 0;
@@ -37,6 +37,7 @@ label {
     padding-right: 12px;
     border-radius: 4px;
     margin-bottom: 10px;
+    font-size: 0.9rem;
 }
 .input:focus {
     border: 1px solid green;
