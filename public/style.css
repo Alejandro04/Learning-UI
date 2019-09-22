@@ -1,6 +1,9 @@
+html { font-size: 20px; }
+
 body {
     margin: 0;
     padding: 0;
+    font-size: 1rem;
 }
 .header {
     display: grid;
@@ -9,7 +12,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 .form_reservation_responsive {
     width: 100%;
@@ -50,7 +52,7 @@ label {
     text-align: center;
     border-radius: 4px;
     width: 100%;
-    font-size: 18px;
+    font-size: 1rem;
     border-style: solid;
     font-weight: bolder;
     margin: auto;
@@ -106,12 +108,13 @@ label {
     position: absolute;
     bottom: 0;
     margin-left: 20px;
+    font-size: 0.7rem;
 }
 .container_form_reservation_desktop{
     display: none;
 }
 .title_desktop > h1{
-    font-size: 26px;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width: 480px) {
