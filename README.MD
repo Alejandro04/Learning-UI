@@ -11,6 +11,4 @@ Guía: Laning Page de Airbnb https://www.airbnb.com.co/
 DEMO: Laning Page de Airbnb https://practical-goodall-3442c6.netlify.com/
 ```
 
-![Alt text](https://practical-goodall-3442c6.netlify.com/)
-
-<img src="public/website.png">
+![alt text](https://miro.medium.com/max/5760/1*5cukG51YzB3wniCfQ2b7kg.png)
