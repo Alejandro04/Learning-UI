@@ -94,19 +94,10 @@ label {
     top: -180px;
     display: none;
 }
-
-.demo-picked {
-    font-size: 10px;
-    text-align: center;
+#v-cal .vcal-week span{
+    font-size: 0.6rem !important;
 }
 
-.demo-picked span {
-    font-weight: bold;
-}
-
-.vcal-week > span{
-    font-size: 10px;
-}
 /************END CALENDAR**********/
 
 
